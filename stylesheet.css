@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+/*
+Developer: Dundee Adriatico
+Date: 21 Jun 2024
+*/
+
+
+body {
+    margin: 0;
+    font-family: system-ui;
+}
+
+/*Header Section */
+
+header {
+    display: grid;
+    grid-template-columns: 1.5fr 4fr 1fr 1fr 1fr 1fr 1fr 2fr;
+    background-color: rgb(12, 38, 56);
+    margin-bottom: 2px;
+    padding: 15px 0;
+}
+
+header div.resortName {
+    margin: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    text-align: left;
+}
+
+header div h5{
+    font-family: Roboto;
+    font-weight: 50;
+}
+
+
+header div{
+    margin: auto;
+    color: white;
+    text-align: center;
+    /*border: 2px solid white;*/
+}
+
+header div.nav1{
+    width: 80px;
+}
+
+header div a{
+    color: white;
+    text-decoration: none;
+}
+
+header img.logo{
+    margin: auto;
+    padding-top: 5px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+/*Button Element*/
+.button1 {
+    padding: 15px 20px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border-radius: 15px;
+  }
+  
+  .button1:hover {background-color: #3e8e41}
+  
+  .button1:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+/*Main Section*/
+
+main section.article1 {
+    padding: 10px 50px;
+    font-family: Roboto;
+    font-weight: 280;
+    word-spacing: 4px;
+    line-height: 1.5;
+}
+
+img.headerpic {
+    width: 100%;
+    height: auto;
+    background-color:rgb(54, 116, 179);
+
+}
+
+main h6 {
+    text-align: center;
+}
+
+main h3 {
+    text-align: center;
+    font-weight: 300;
+    font-size: x-large;
+}
+
+/*Gallery Section*/
+section div {
+    margin: 20px;
+}
+
+section.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    background-color: rgb(62, 138, 112);
+}
+
+section.gallery div{
+    background-color: white;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section.gallery img {
+    margin-top: 10px;
+    width: 90%;
+    height: auto;
+}
+
+section.gallery img:hover {
+    filter: grayscale(100%);
+    opacity: .8;
+}
+
+
+/*Blockqoute Section*/
+
+section.blockquote1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgba(241, 167, 6, 0.397);
+}
+
+blockquote {  
+    width: 100%;
+    padding: 10px;
+    font-size: small;
+    text-align: right;
+}
+
+section.blockquote1 em {
+    font-size: large;
+    font-weight: 500;
+}
+
+section.blockquote1 span {
+    font-size: smaller;
+    font-weight: 100;
+}
+
+
+/*Footer Section*/
+
+footer {
+    background-color: rgb(12, 38, 56);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Roboto;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer img.logo{
+    margin: auto;
+    padding-top: 0;
+    width: 80px;
+    border-radius: 50%;
+}
+
+address {
+    text-align: right;
+    padding: 15px;
+}
+
+footer p i{
+    font-size: smaller;
+}
+
+/* Style all font awesome icons */
+
+section.smicons{
+    padding: 25px;
+    text-align: left;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 24%;
+  }
+
+  /* Twitter */
+.fa-instagram {
+    background: #972926;
+    color: white;
+    border-radius: 24%;
+  }
+  
