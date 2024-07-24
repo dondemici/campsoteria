@@ -55,12 +55,12 @@ header div a{
 header img.logo{
     margin: auto;
     padding-top: 5px;
-    width: 120px;
+    width: 6em;
     border-radius: 50%;
 }
 
 header div img{
-    width: 20em;
+    width: 14em;
 }
 
 /*Button Element*/
