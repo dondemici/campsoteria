@@ -101,13 +101,6 @@ main section.article1 {
     margin: auto;
   }
 
- Hide the images by default 
-/*.mySlides {
-    display:block;
-  }
-
-
-
   /* The dots/bullets/indicators */
   .dot {
     height: 15px;
@@ -136,9 +129,6 @@ main section.article1 {
   
 
 
-
-
-
 main h6 {
     text-align: center;
 }
@@ -150,10 +140,6 @@ main h3 {
 }
 
 /*Gallery Section*/
-section div {
-    margin: 20px;
-}
-
 section.gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -171,7 +157,7 @@ section.gallery div{
 section.gallery img {
     margin-top: 10px;
     width: 90%;
-    height: auto;
+    height: 70%;
 }
 
 section.gallery img:hover {
