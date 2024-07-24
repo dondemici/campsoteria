@@ -109,12 +109,11 @@ main section.article1 {
 
 
   /* The dots/bullets/indicators */
-.dot {
-    cursor: pointer;
+  .dot {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: #9b9898;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -130,9 +129,9 @@ main section.article1 {
     animation-duration: 1.5s;
   }
   
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
   }
   
 
@@ -350,4 +349,14 @@ section.smicons{
 #dateNow {
     font-size: 1em;
     text-align: center;
+}
+
+
+/* Food Menu*/
+section.foodMenu{
+    text-align: center;
+}
+
+section.foodMenu img{
+    width: 100%;
 }
