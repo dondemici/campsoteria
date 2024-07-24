@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camp Soteria - Contact Us</title>
     <link rel="stylesheet" href="stylesheet.css">
-    
+    <script src="script.js" defer></script>
 </head>
 <body>
     
@@ -15,10 +15,10 @@
             <img src="images/CS_Name_SBlue.JPG" alt="">
         </div>
         <div class="nav1"><a href="">Gallery</a></div>
-        <div class="nav1"><a href="">Menu</a></div>
+        <div class="nav1"><a href="menu.html">Menu</a></div>
         <div class="nav1"><a href="">About Us</a></div>
         <div class="nav1"><a href="">Careers</a></div>
-        <div class="nav1"><a href="">Contact Us</a></div>
+        <div class="nav1"><a href="contact.html">Contact Us</a></div>
         <div class="button1"><a href="https://www.booking.com/hotel/ph/camp-soteria-resort-san-agustin-surigao-del-sur1.html">Book Now</a></div>
     </header>
     
@@ -28,7 +28,7 @@
             </h2>
             <h4 id="form">Required Item (*)</h4>
 
-            <form action="" method="post">
+            <form action="https://formsubmit.co/camp.soteriagroup@gmail.com" method="POST">
                 <fieldset>
                     <div class="rowForm">
                         <label for="cFName">First Name*</label>
@@ -42,17 +42,22 @@
                     </div>
                     <div class="rowForm">
                         <label for="cEmail">E-mail*</label>
-                        <input type="text" id="cEmail" name="conEmail" required>
+                        <input type="email" id="cEmail" name="conEmail" required>
                         <div></div>
                     </div>
                     <div class="rowForm">
-                        <label for="cAddress">Message*</label>
-                        <textarea name="cAddress" id="conAddress" cols="61" rows="8"></textarea>
+                        <label for="cPhone">Phone Number</label>
+                        <input type="tel" id="cPhone" name="conPhone">
+                        <div></div>
+                    </div>
+                    <div class="rowForm">
+                        <label for="cMessage">Message*</label>
+                        <textarea name="cMessage" id="conMessage" cols="61" rows="8"></textarea>
                         <div></div>
                     </div>
 
                     <div class="formbutton">
-                        <input class="formbutton1" type="button" href="mailto:acyantune@gmail.com?Subject=Query" value="Submit" >
+                        <input class="formbutton1" type="submit" value="Submit">
                     </div>
 
                 </fieldset>
