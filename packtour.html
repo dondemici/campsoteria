@@ -4,30 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
+    <!-- CSS & JS Links -->
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <div><a href="index.html"><img class="logo" src="images/CS_Logo.jpg"  alt=""></a></div>
+        <!-- Logo, Name & Mobile Menu -->
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        <div>
+            <a href="index.html"><img class="logo" src="images/CS_Logo.jpg"  alt=""></a>
+        </div>
         <div class="resortName">
             <a href="index.html"><img src="images/CS_Name_SBlue.JPG" alt=""></a>
         </div>
-        <div class="nav1"><a href="index.html">Home</a></div>
-        <div class="nav1"><a href="menu.html">Menu</a></div>
-        <div class="nav1"><a href="">About Us</a></div>
-        <div class="nav1"><a href="careers.html">Careers</a></div>
-        <div class="nav1"><a href="contact.html">Contact Us</a></div>
-        <div class="button1"><a href="https://www.booking.com/hotel/ph/camp-soteria-resort-san-agustin-surigao-del-sur1.html">Book Now</a></div>
+
+        <!-- Navigation Links -->
+        <nav>
+            <div class="nav1"><a href="index.html">Home</a></div>
+            <div class="nav1"><a href="menu.html">Menu</a></div>
+            <div class="nav1"><a href="">About Us</a></div>
+            <div class="nav1"><a href="careers.html">Careers</a></div>
+            <div class="nav1"><a href="contact.html">Contact Us</a></div>
+            <div class="button1"><a href="https://www.booking.com/hotel/ph/camp-soteria-resort-san-agustin-surigao-del-sur1.html">Book Now</a></div>
+        </nav>
+        
     </header>
 
+    <!-- Tour Package -->
     <main>
         <section class="foodMenu">
         <img src="images/Package Tours.jpg" alt="">
         </section>
     </main>
 
-
+    <!-- Footer -->
     <footer>
+        <!-- Address -->
         <section>
             <Address>
                 <p><b>Camp Soteria</b>
@@ -39,10 +52,12 @@
             </Address>
         </section>
         
+        <!-- Logo -->
         <section class="footergroup">
             <div><img class="logo" src="images/CS_Logo.jpg" alt=""></div>
         </section>
 
+        <!-- Social Media -->
         <section class="smicons">
             <!-- Add icon library -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
