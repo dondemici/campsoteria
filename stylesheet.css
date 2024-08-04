@@ -1,9 +1,9 @@
-@charset "utf-8";
-
 /*
 Developer: Dundee Adriatico
 Date: 21 Jun 2024
 */
+
+@charset "utf-8";
 
 body {
     margin: 0;
@@ -354,6 +354,48 @@ div.rowForm {
     text-align: center;
     cursor: pointer;
 }
+
+/*Careers Section*/
+table {
+    text-align: left;
+    margin: auto;
+    padding: 20px;
+}
+
+thead th {
+    border: 2px black;
+    border-style: none none solid none;
+    font-size: x-large;
+    padding: 20px 0;
+}
+
+tbody th {
+    padding: 40px 0;
+    border: 1px black;
+    border-style: none none solid none;
+}
+
+tfoot td {
+    padding: 30px 0;
+}
+
+/*Careers Section - Previous Postings*/
+section.prevPosts{
+    background: linear-gradient(to top,rgb(54, 106, 131), rgb(12, 38, 56));
+    color: white;
+    text-align: center;
+    border: 1px black solid;
+    
+}
+
+section.prevPosts th,
+section.prevPosts td {
+    border: 1px white solid;
+    margin: auto;
+    padding: 10px;
+    width: 40%;
+}
+
 
 
 /*Footer Section*/
