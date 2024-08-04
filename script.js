@@ -1,3 +1,6 @@
+//Developer: Dundee Adriatico
+//Date: 21 Jun 2024
+"use strict";
 
 //Clock in Home Page
 setInterval(runClock, 1000); // Use function reference directly, not as a string
@@ -12,10 +15,10 @@ function runClock(){
 
 
 //Slideshow of 3 Photos in Home Page
+//Slideshow script from w3schools (https://www.w3schools.com/howto/howto_js_slideshow.asp)
 //setInterval(showSlides, 5000)
 let slideIndex = 0;
 showSlides();
-
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
@@ -27,6 +30,7 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
+//Slideshow End
 
 //Navigation Bar change for small screens
 function toggleMenu() {
@@ -41,3 +45,24 @@ function toggleMenu() {
   }
 }
 
+//display Previous Job Postings;
+function displayPrevPosts() {
+  let jobPost = ["Resort Manager","Kitchen Helper","Cook","Housekeeper"];
+  let jobStatus = ["Closed","Closed","Closed","Closed"];
+  let startNumber = 4;  // Starting number as 4 to get 004
+  let result = "<table>";
+  result += "<tr><th>Number</th><th>Position</th><th>Status</th></tr>";  // Add table headers
+  for (let i = 0; i < jobPost.length; i++) {
+      let number = (startNumber + i).toString().padStart(2, '0');  // Format number to 2 digits
+      result += "<tr><td>"  + number + "</td><td>" + jobPost[i] + "</td><td>" + jobStatus[i] +"</td></tr>";
+  }
+  result += "</table>";
+  document.getElementById("courseTable").innerHTML = result;
+}
+
+//Reference:
+//Author: W3Schools.com
+//Date: (n.d.). (since no specific date is provided on the page)
+//Title: How To Create a Slideshow
+//Website name: W3Schools
+//URL: https://www.w3schools.com/howto/howto_js_slideshow.asp
