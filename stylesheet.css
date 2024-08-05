@@ -268,7 +268,7 @@ section.gallery img {
     }
 }
 
-/*Blockqoute Section*/
+/*Blockqoute Section
 
 section.blockquote1 {
     display: grid;
@@ -291,6 +291,43 @@ section.blockquote1 em {
 section.blockquote1 span {
     font-size: smaller;
     font-weight: 100;
+}*/
+
+/*About Us*/
+
+div.about{
+    padding: 50px;
+}
+article.about{
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    text-align: justify;
+    word-spacing: 5px;
+    border-style:ridge;
+}
+article.about h4{
+    text-align: center;
+}
+
+blockquote.bqabout{
+    background-color: rgba(241, 167, 6, 0.397);
+    font-size: x-small;
+    width: 60%;
+    float: right;
+    margin: 0 0 3px 30px;
+    text-align: left;
+    padding: 10px;
+}
+
+section.bqabout em {
+    font-size: small;
+    font-weight: 500;
+}
+section.bqabout span {
+    font-size: smaller;
+    font-weight: 100;
+    
 }
 
 /*Form Section - Contact Us*/
